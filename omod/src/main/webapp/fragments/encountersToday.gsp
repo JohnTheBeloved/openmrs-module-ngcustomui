@@ -1,3 +1,4 @@
+
 <%
     def props = config.properties ?: ["type", "datetime", "location", "provider"]
 %>
