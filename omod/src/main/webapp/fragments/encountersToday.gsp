@@ -1,7 +1,22 @@
 
 <%
-    def props = config.properties ?: ["type", "datetime", "location", "provider"]
+    ui.includeJavaScript("ngcustomui", "jquery.js")
+    <%= ui.resourceLinks() %>
+
+    def id = config.id
+    def props = config.properties ?: ["encounterType", "encounterDatetime", "location", "provider"]
 %>
+<script>
+    jq = jQuery;
+
+    jq(function(){
+        jq('#${ id }_button').click(function(){
+            {
+                'start': '${config.start'
+            }
+        };)
+    });
+</script>
 <table>
     <tr>
         <% props.each { %>
