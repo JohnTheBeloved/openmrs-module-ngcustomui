@@ -29,7 +29,7 @@
         <property name="moduleId" value="ngcustomui"/>
   </bean>
 	
-	<context:component-scan base-package="org.openmrs.module.ngcustomui.web.controller" />
+	<context:component-scan base-package="org.openmrs.module.ngcustomui" />
  
 		
 </beans>

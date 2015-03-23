@@ -26,13 +26,8 @@ public class MyFavoritePatientsController {
         return "redirect:myfavoritepatients.form";
     }
 
-   /* @RequestMapping(value = "/module/ngcustomui/manage", method = RequestMethod.GET)
+   /** @RequestMapping(value = "/module/ngcustomui/manage", method = RequestMethod.GET)
     public void manage(ModelMap model) {
         model.addAttribute("user", Context.getAuthenticatedUser());
     }*/
-}
-
-
-
-
 }
